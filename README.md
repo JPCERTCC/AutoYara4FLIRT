@@ -1,1 +1,76 @@
 # AutoYara4FLIRT
+AutoYara4FLIRT is a very simple IDA plugin that automatically generates yara rules from files.
+The yara rules generated from ELF files can be used to create FLIRT signatures for the technique.
+
+## HOW TO INSTALL
+- Move `AutoYara4FLIRT.py` to `IDA's plugin folder`
+  - Ex) c:\Program files\IDA Pro 8.2\plugins\AutoYara4FLIRT.py
+
+## USAGE
+- Select `AutoYara4FLIRT` on IDA
+  - Ex) Edit -> Plugins -> AutoYara4FLIRT
+
+## DEMO
+![](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/main/image/demo.gif)
+
+--- 
+
+# CLI_AutoYara
+CLI_AutoYara is a simple CLI tool that automates yara rule creation and the creation of sig files from hunt ELF binaries.
+Note that this tool can target multiple malware at once.
+
+## HOW TO INSTALL
+- Download `sigmake.exe` in `Flair` from https://hex-rays.com/download-center/
+- Download AutoYara4FLIRT
+```
+$ git clone https://github.com/JPCERTCC/AutoYara4FLIRT.git
+$ cd AutoYara4FLIRT\CLI_AutoYara
+```
+- Edit `CLI_AutoYara.py`
+```py
+class ConfigVar:
+    """
+    ===================== Filepath ===========================
+    """
+    SIGMAKE_DIR = "C:\\sigmake.exe"                            # <<<--- the path of `sigmake.exe` !!!
+    IDA_INSTAll_PATH = "C:\\\"Program Files\"\\\"IDA Pro 8.2\""
+    IDA_SIG_PATH      = r"C:\Program Files\IDA Pro 8.2\sig"
+    """
+    ==========================================================
+    """
+```
+
+## USAGE
+- `Targeted ELF` -> `.yara`
+```
+$ python CLI_AutoYara.py --autoyara 32
+```
+
+- `Hunted ELF` -> `.sig`
+```
+$ python CLI_AutoYara.py --elf2sig 32 SigName pc
+```
+
+## DEMO (About 3 minutes)
+![](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/main/image/demo_cli.gif)
+
+--------
+
+## Scope of tools
+
+![](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/main/image/image.png)
+
+## More Details
+
+- English ![https://blogs.jpcert.or.jp/en/2023/05/autoyara4flirt.html](https://blogs.jpcert.or.jp/en/2023/05/autoyara4flirt.html)
+- 日本語 ![https://blogs.jpcert.or.jp/ja/2023/05/autoyara4flirt.html](https://blogs.jpcert.or.jp/ja/2023/05/autoyara4flirt.html)
+
+--------
+
+## Reference
+- F.L.I.R.T https://hex-rays.com/products/ida/tech/flirt/
+- Generating FLAIR function patterns using IDAPython https://www.mandiant.com/resources/blog/flare-ida-pro-script
+
+## LICENSE
+Please read the [LICENSE](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/master/LICENSE.txt) page.
+
