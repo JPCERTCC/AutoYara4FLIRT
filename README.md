@@ -70,6 +70,7 @@ $ python CLI_AutoYara.py --elf2sig 32 SigName pc
 ## Reference
 - F.L.I.R.T https://hex-rays.com/products/ida/tech/flirt/
 - Generating FLAIR function patterns using IDAPython https://www.mandiant.com/resources/blog/flare-ida-pro-script
+- idb2pat https://github.com/mandiant/flare-ida
 
 ## LICENSE
 Please read the [LICENSE](https://github.com/JPCERTCC/AutoYara4FLIRT/blob/master/LICENSE.txt) page.
