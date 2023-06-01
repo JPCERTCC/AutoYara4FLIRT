@@ -62,8 +62,8 @@ $ python CLI_AutoYara.py --elf2sig 32 SigName pc
 
 ## More Details
 
-- English ![https://blogs.jpcert.or.jp/en/2023/05/autoyara4flirt.html](https://blogs.jpcert.or.jp/en/2023/05/autoyara4flirt.html)
-- 日本語 ![https://blogs.jpcert.or.jp/ja/2023/05/autoyara4flirt.html](https://blogs.jpcert.or.jp/ja/2023/05/autoyara4flirt.html)
+- English ![https://blogs.jpcert.or.jp/en/2023/06/autoyara4flirt.html](https://blogs.jpcert.or.jp/en/2023/06/autoyara4flirt.html)
+- Japanese ![https://blogs.jpcert.or.jp/ja/2023/06/autoyara4flirt.html](https://blogs.jpcert.or.jp/ja/2023/06/autoyara4flirt.html)
 
 --------
 
