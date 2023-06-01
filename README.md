@@ -11,7 +11,7 @@ The yara rules generated from ELF files can be used to create FLIRT signatures f
   - Ex) Edit -> Plugins -> AutoYara4FLIRT
 
 ## DEMO
-![](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/main/image/demo.gif)
+![](https://github.com/JPCERTCC/AutoYara4FLIRT/blob/main/image/demo.gif)
 
 --- 
 
@@ -52,13 +52,13 @@ $ python CLI_AutoYara.py --elf2sig 32 SigName pc
 ```
 
 ## DEMO (About 3 minutes)
-![](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/main/image/demo_cli.gif)
+![](https://github.com/JPCERTCC/AutoYara4FLIRT/blob/main/image/demo_cli.gif)
 
 --------
 
 ## Scope of tools
 
-![](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/main/image/image.png)
+![](https://github.com/JPCERTCC/AutoYara4FLIRT/blob/main/image/image.png)
 
 ## More Details
 
@@ -72,5 +72,5 @@ $ python CLI_AutoYara.py --elf2sig 32 SigName pc
 - Generating FLAIR function patterns using IDAPython https://www.mandiant.com/resources/blog/flare-ida-pro-script
 
 ## LICENSE
-Please read the [LICENSE](https://github.com/JPCERTCC/AutoYara4FLIRT-Private/blob/master/LICENSE.txt) page.
+Please read the [LICENSE](https://github.com/JPCERTCC/AutoYara4FLIRT/blob/master/LICENSE.txt) page.
 
