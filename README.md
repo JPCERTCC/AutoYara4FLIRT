@@ -43,11 +43,15 @@ class ConfigVar:
 ## USAGE
 - `Targeted ELF` -> `.yara`
 ```
+$ python CLI_AutoYara.py --autoyara [BITS-of-Arch-in-ELFfile]
+# Example
 $ python CLI_AutoYara.py --autoyara 32
 ```
 
 - `Hunted ELF` -> `.sig`
 ```
+$ python CLI_AutoYara.py --elf2sig [BITS-of-Arch-in-ELFfile] [Sig-Name] [Sig-Directory]
+# Example
 $ python CLI_AutoYara.py --elf2sig 32 SigName pc
 ```
 
