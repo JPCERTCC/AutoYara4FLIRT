@@ -1,6 +1,6 @@
 # AutoYara4FLIRT
 AutoYara4FLIRT is a very simple IDA plugin that automatically generates yara rules from files.
-The yara rules generated from ELF files can be used to create FLIRT signatures for the technique.
+The yara rules generated from ELF files can be used to create FLIRT signatures for the technique. For more information, see our blog post in **More Details** link.
 
 ## HOW TO INSTALL
 - Move `AutoYara4FLIRT.py` to `IDA's plugin folder`
