@@ -16,7 +16,7 @@ The yara rules generated from ELF files can be used to create FLIRT signatures f
 --- 
 
 # CLI_AutoYara
-CLI_AutoYara is a simple CLI tool that automates yara rule creation and the creation of sig files from hunt ELF binaries. In Addition, this tool can target multiple malware at once. It is also easy to use, requiring **no external modules** other than IDA related. Sample files are also available on this github for you to try out right away!
+CLI_AutoYara is a simple CLI tool that automates yara rule creation and the creation of sig files from hunted ELF binaries. In Addition, this tool can target multiple malware at once. It is also easy to use, requiring **no external modules** other than IDA related. Sample files are also available on this github for you to try out right away!
 
 ## HOW TO INSTALL
 - Download `sigmake.exe` in `Flair` from https://hex-rays.com/download-center/
