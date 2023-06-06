@@ -1,7 +1,6 @@
 # AutoYara4FLIRT
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/JPCERTCC/AutoYara4FLIRT)
-[![GitHub license](https://img.shields.io/github/license/JPCERTCC/AutoYara4FLIRT)](https://github.com/JPCERTCC/AutoYara4FLIRT/blob/master/LICENSE.txt)
 ![GitHub top language](https://img.shields.io/github/languages/top/JPCERTCC/AutoYara4FLIRT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/JPCERTCC/AutoYara4FLIRT)
 
